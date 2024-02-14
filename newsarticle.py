@@ -18,9 +18,6 @@ soup=BeautifulSoup(r.text,"html.parser")
 
 url_tag =soup.find("url",class_="pager")
 
-!pip install dateutil
-!pip install pytz
-
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
