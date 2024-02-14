@@ -192,7 +192,7 @@ news.dtypes
 
 news.Summarize
 
-!pip install summa
+#!pip install summa
 
 """generated title
 
